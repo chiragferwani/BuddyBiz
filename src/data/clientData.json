@@ -1,38 +1,38 @@
 [
     {
         "index": 1,
-        "name": "John Smith",
-        "role": "Marketing dierector at XYZ",
-        "comment": "We have been working with Positivus for the past year and have seen a significant increase in website traffic and leads as a result of their efforts. The team is professional, responsive, and truly cares about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."
+        "name": "Ashmita Majee",
+        "role": "Student At Javadpur University",
+        "comment": "BubbleBuddy’s work on BioGuard.AI was exceptional. They developed powerful AI modules for disease prediction and mental health assessment, all integrated seamlessly into a stunning front-end interface. Their expertise in Python and Streamlit, combined with a responsive website design, brought our healthcare platform to life. "
     },
     {
         "index": 2,
-        "name": "Jane Doe",
-        "role": "CEO at ABC",
-        "comment": "We chose Positivus to help us with our SEO and PPC campaigns and have been very impressed with their results. They are knowledgeable, responsive, and truly care about the success of our business. We highly recommend Positivus to any company looking to grow their online presence."
+        "name": "Siddesh Gundalkar",
+        "role": "IT Student",
+        "comment": "We approached BubbleBuddy to create a cricket match predictions platform, and they delivered beyond our expectations. From the smooth integration of Flutter and Firebase to the eCommerce features, every detail was thoughtfully implemented. Their admin dashboard is intuitive, making management a breeze. "
     },
     {
         "index": 3,
-        "name": "Alice Johnson",
-        "role": "Owner at 123",
-        "comment": "I recently started working with Positivus and have been very impressed with their professionalism and expertise. They have helped me increase my online visibility and generate more leads for my business. I highly recommend Positivus to anyone looking to improve their online marketing strategy."
+        "name": "Prnav Mane",
+        "role": "Computer Science Student",
+        "comment": "BubbleBuddy transformed our vision into a reliable and intuitive financial calculator app. Their expertise in Java and Firebase ensured a secure platform that delivers real-time insights, perfectly meeting our needs. The user-friendly interface has been a hit with our audience, and we’ve seen a noticeable increase in app engagement. "
     },
     {
         "index": 4,
-        "name": "Bob Brown",
-        "role": "Dierector at XYZ",
-        "comment": "Positivus has been a great partner for our company. They are knowledgeable, responsive, and truly care about the success of our business. We have seen a significant increase in website traffic and leads as a result of their efforts. I highly recommend Positivus to any company looking to grow their online presence."
+        "name": "Prathamesh Patil",
+        "role": "IT Student",
+        "comment": "Working with BubbleBuddy on UrbanRoots has been a game-changer for us. The app and website they developed have made it so much easier for our users to explore cities and book essential services. Their attention to detail, seamless design, and innovative features exceeded our expectations."
     },
     {
         "index": 5,
         "name": "Gupta Patel",
         "role": "Content creator",
-        "comment": "I have been working with Positivus for the past year and have been very impressed with their professionalism and expertise. They have helped me increase my online visibility and generate more leads for my business. I highly recommend Positivus to anyone looking to improve their online marketing strategy."
+        "comment": "Partnering with BubbleBuddy for RouterMate was a fantastic decision. They created a robust e-commerce platform with advanced features like payment integration and a WiFi speed testing module. The app and accompanying website are user-friendly, visually appealing, and perform flawlessly."
     },
     {
         "index": 6,
-        "name": "Sara Johnson",
+        "name": "Rohan Ahuja",
         "role": "Freelancer",
-        "comment": "Positivus made a huge difference in our online presence. They are knowledgeable, responsive, and truly care about the success of our business. We have seen a significant increase in website traffic and leads as a result of their efforts. I highly recommend Positivus to any company looking to grow their online presence."
+        "comment": "BubbleBuddy has revolutionized our farm-to-table model with CropCart. Their platform connects farmers and customers effortlessly, ensuring fresh produce delivery within 24 hours. The eco-friendly features, like biodegradable packaging and transparent pricing, perfectly align with our mission."
     }
 ]
