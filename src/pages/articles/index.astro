@@ -3,21 +3,29 @@ import MainLayout from "../../layouts/MainLayout.astro";
 import ArticleCard from "../../components/ui/ArticleCard.astro";
 import SearchForm from "../../components/ui/SearchForm.astro";
 import { getCollection } from 'astro:content';
+import Contact from "../../components/sections/Contact.astro";
+import SectionTitle from "src/components/ui/SectionTitle.astro";
 import type { CollectionEntry } from "astro:content";
+import { Image } from "astro:assets";
+import gob from "../../assets/icon6.svg";
+import wob from "../../assets/icon7.svg";
 
 const currentPage: number | null = +Astro.url.searchParams.get('page')! || 1;
+
+const description =
+  "";
 
 const allBlogArticles: CollectionEntry<'blog'>[] = (await getCollection('blog'))
   .sort((a:CollectionEntry<'blog'>, b:CollectionEntry<'blog'>) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
 ---
 
-<MainLayout title="Positivus - Blog">
+<MainLayout title="BubbleBuddy">
 	<main class="space-y-20">
             <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-3">
                 <div class="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
-                    <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold">Our Blog</h2>
-                    <p class="font-light sm:text-xl">We use an agile approach to test assumptions and connect with the needs of your audience early and often.</p>
+                    <h2 class="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold">Featured Projects</h2>
+                    <p class="font-light sm:text-xl">At BubbleBuddy, we leverage agile methodologies to validate ideas and continuously engage with your audience, ensuring alignment with their needs from the outset.</p>
                 </div> 
                 <br>
                 <SearchForm />
@@ -28,5 +36,20 @@ const allBlogArticles: CollectionEntry<'blog'>[] = (await getCollection('blog'))
                     ))}
                 </div>  
             </div>
+            
 	</main>
+    <div class="row items-center py-5 md:pb-20 md:pt-10">
+        <div class="text-center space-y-10">
+        <a class="px-9 py-5 bg-zinc-900 hover:bg-white text-white hover:text-black border rounded-2xl justify-items-center md:justify-items-start gap-2.5 inline-flex" rel="noopener noreferrer" href="" target="_blank">
+            <h2 class="text-center text-xl font-normal leading-10">Project Library</h2>
+            <Image src={wob} alt={'image'} />
+        </a>
+        <div style="margin-left: auto; margin-right: auto;" class="flex flex-col text-center items-center gap-10 mb-20 sm:flex-row">
+            <h2 style="text-align: center; margin-left: auto; margin-right: auto;" class="greenhead text-center sm:text-center text-3xl sm:text-4xl">coming soon..</h2>
+          </div>
+    </div>
+    </div>
+    
+    <br>
+    <Contact />
 </MainLayout>

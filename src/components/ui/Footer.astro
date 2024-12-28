@@ -1,27 +1,25 @@
 ---
 import { Image } from "astro:assets";
-import Facebook from "../../assets/facebook.svg";
+import Instagram from "../../assets/instagram.svg";
 import Linkedin from "../../assets/linkedin.svg";
-import Logo from "../../assets/logo-alt.svg";
+import Logo from "./public/logo.svg";
 import Twitter from "../../assets/twitter.svg";
 import ShortForm from "../ui/ShortForm.astro";
 
 const logos = [
-  { name: "Facebook", src: Facebook, link: "https://facebook.com" },
-  { name: "Linkedin", src: Linkedin, link: "https://linkedin.com" },
-  { name: "Twitter", src: Twitter, link: "https://twitter.com" },
+  
+  { name: "Linkedin", src: Linkedin, link: "https://www.linkedin.com/company/bubblebuddydev/" },
+  
 ];
 
 const links = [
   { name: "About us", href: "#about" },
   { name: "Services", href: "#services" },
   { name: "Use Cases", href: "#cases" },
-  { name: "Pricing", href: "#Testimonials" },
-  { name: "Blog", href: "#Home" },
 ];
 ---
 
-<section class="sm:px-5">
+<section class="sm:px-5" id="footer">
   <div class="w-full max-w-[1240px] mx-auto">
     <div
       class="px-[15px] bg-dark text-gray py-[55px] lg:px-[60px] sm:rounded-t-[45px]"
@@ -31,8 +29,8 @@ const links = [
           class="flex flex-col lg:flex-row gap-7 items-center justify-between"
         >
           <picture>
-            <a href="#home">
-              <Image src={Logo} alt="Logo for Kreatif Brand" />
+            <a href="/" style="font-size: 30px;" class="flex items-center space-x-3 rtl:space-x-reverse">
+              <img src="/logonew.png" height="200%" width="200%" class="h-10" alt="Logo" /> &nbsp;BubbleBuddy
             </a>
           </picture>
           <ul class="flex flex-col sm:flex-row gap-5">
@@ -71,10 +69,10 @@ const links = [
           >
             <h3 class="mb-5 text-center md:text-left text-2xl text-green">Contact us</h3>
             <div class="flex flex-col justify-between gap-4">
-              <span> Email: examplemail.com </span>
-              <span> Phone: +123 456 789 </span>
+              <span> Email: contact.bubblebuddydev@gmail.com </span>
+              <span> Phone: +918767386340 </span>
               <span class="lg:w-3/4">
-                Address: 1234 Street Name, City Name, Country Name
+                Address: Pune, Maharashtra.
               </span>
             </div>
           </div>
@@ -89,7 +87,7 @@ const links = [
         class="flex flex-col lg:flex-row h-20 justify-center mt-4 text-center md:justify-between md:mt-0"
       >
         <span
-          >2024 Positivus - Made With <a
+          >© 2024 BubbleBuddy - Made With <a
             class="underline"
             target="_blank"
             href="https://astro.build">Astro</a
@@ -97,28 +95,10 @@ const links = [
           <a 
           class="underline"
           target="_blank"
-          href="https://manulthanura.com">Manul</a
+          href="https://chiragferwani.vercel.app/">Chirag</a
           ></span
         >&nbsp
-        <span>
-          Credits (
-          <a
-            href="https://www.olgaskuja.design/"
-            target="_blank"
-            class="underline">Olga</a
-          >,
-          <a
-            href="https://esteban-vasquez.netlify.app/"
-            target="_blank"
-            class="underline">Esteban</a
-          >)
-          <span> &</span>
-          <a
-            class="underline"
-            href="https://creativecommons.org/licenses/by/4.0/"
-            target="_blank">Licence</a
-          >
-        </span>
+       
       </div>
     </div>
   </div>

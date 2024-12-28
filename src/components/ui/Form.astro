@@ -6,13 +6,15 @@ import decorForm from "../../assets/pics/contact-pic.png";
 <div
   class="flex relative justify-start items-center p-[60px] bg-[#F3F3F3] rounded-[45px] overflow-hidden"
 >
-  <form class="bg-gray sm:p-6 h-full w-full lg:max-w-lg">
+  <form action="https://api.web3forms.com/submit" method="post" class="bg-gray sm:p-6 h-full w-full lg:max-w-lg">
+    <input type="hidden" name="access_key" value="d296602c-0f64-4b8b-9b45-94101a742994">
     <div class="flex flex-col sm:flex-row gap-[35px] sm:items-center mb-10">
+      
       <div class="flex items-center gap-[14px]">
         <input
           type="checkbox"
           id="checkbox1"
-          name="checkbox1"
+          name="wants information"
           class="form-checkbox text-black"
         />
         <label for="checkbox1" class="text-black">Say Hi</label>
@@ -21,7 +23,7 @@ import decorForm from "../../assets/pics/contact-pic.png";
         <input
           type="checkbox"
           id="checkbox2"
-          name="checkbox2"
+          name="wants quote"
           class="form-checkbox text-black"
         />
         <label for="checkbox2" class="flex items-center text-black"

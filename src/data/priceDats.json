@@ -1,32 +1,35 @@
 [
     {
         "title": "Starter",
-        "description": "Best option for personal use & for your next project",
-        "price": 29,
-        "devCount": "1 developer",
+        "description": "Best for individuals and small projects",
+        "price": "49-$99",
+        "diff": "App or Website Development Support",
+        "devCount": "Access to Prebuilt Project Templates",
         "support": "6 months",
-        "update": "6 months",
+        "update": "3 months",
         "action": "Get Started",
-        "link": "/"
+        "link": "#footer"
     },
     {
         "title": "Company",
-        "description": "Relevant for multiple users, extended & premium support",
-        "price": 99,
-        "devCount": "10 developers",
-        "support": "24 months",
-        "update": "24 months",
+        "description": "Ideal for medium-scale projects",
+        "price": "99-$149",
+        "diff": "Full Development and Design Support",
+        "devCount": "Access to Custom Templates",
+        "support": "12 months",
+        "update": "6 months",
         "action": "Get Started",
-        "link": "/"
+        "link": "#footer"
     },
     {
         "title": "Enterprise",
-        "description": "Best for large scale uses and extended redistribution rights",
-        "price": 499,
-        "devCount": "100+ developers",
-        "support": "36 months",
-        "update": "36 months",
+        "description": "Best for large-scale projects",
+        "price": "199-$249",
+        "diff": "Development, Design & Marketing Support",
+        "devCount": "Customizable Project Features",
+        "support": "24 months",
+        "update": "12 months",
         "action": "Get Started",
-        "link": "/"
+        "link": "#footer"
     }
 ]
