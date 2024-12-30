@@ -1,5 +1,6 @@
 ---
 import Seo from "../components/seo/Seo.astro";
+import Analytics from '@vercel/analytics/astro'
 
 // Pass the contents to create SEO for the page
 const { title, description, image, frontmatter, robots } = Astro.props;
@@ -14,6 +15,7 @@ const { title, description, image, frontmatter, robots } = Astro.props;
   -->
   <meta name="viewport" content="width=device-width" />
   <meta name="generator" content={Astro.generator} />
+  <Analytics />
 
   <title>{title}</title>
   <meta name="description" content={description} />
